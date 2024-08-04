@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Quote generator
+    </title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <script type="text/javascript">
+        function quote(){
+            const quote=["It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own.- by Jessamyn West",
+                "One must be fond of people and trust them if one is not to make a mess of life. - by E. M. Forster",
+                "One secret of success in life is for a man to be ready for his opportunity when it comes. - by Benjamin Disraeli",
+                "There is nothing in a caterpillar that tells you it's going to be a butterfly. - by Buckminster Fuller",
+                "To study and not think is a waste. To think and not study is dangerous. - by Confucius",
+                "It is only with the heart that one can see rightly, what is essential is invisible to the eye. -by Antoine de Saint-Exupery",
+                "I am always doing that which I cannot do, in order that I may learn how to do it. by - Pablo Picasso",
+                "One needs something to believe in, something for which one can have whole-hearted enthusiasm. One needs to feel that ones life has meaning, that one is needed in this world. -by Hannah Senesh",
+                "The best thing in every noble dream is the dreamer by Moncure Conway",
+               "There is no need for temples, no need for complicated philosophies. My brain and my heart are my temples; my philosophy is kindness. by Dalai Lama" ]
+
+            num= Math.floor(Math.random() *10);
+            document.getElementById("qte").innerHTML= quote[num];
+        }
+
+       
+    </script>
+</head>
+<body>
+   
+    <div class="box">
+        <h2 color="black" align="center">Today's Quote</h2>
+        <hr>
+        <br><br>
+        <p class="text" id="qte"></p>
+
+        <input class="btn" type="button" onclick="quote()" value="Generate a Quote">
+
+        <br>
+        <br>
+
+
+    </div>
+
+
+</body>
+</html>

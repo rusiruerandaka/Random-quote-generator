@@ -1,0 +1,34 @@
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    padding-top: 25px;
+    margin-left: 550px;
+    margin-top: 50px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.btn{
+    height: 40px;
+   margin-left: 170px;
+   background-color: rgb(75, 75, 222);
+   color: rgb(240, 243, 246);
+   font-weight: 600;
+   border-radius: 10px;
+   
+}
+
+.text{
+    color: rgb(6, 6, 6);
+    font-size: 25px;
+    position: relative;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(195, 72, 92), blue);
+}
